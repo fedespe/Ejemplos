@@ -1,0 +1,65 @@
+﻿@model IEnumerable<CrudNetCore5.Models.Libro>
+@{
+    ViewData["Title"] = "Lista de libros";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    @if (TempData["mensaje"] != null)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            @TempData["mensaje"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <div class="row">
+        <div class="col-sm-6">
+            <h3>Lista de Libros</h3>
+        </div>
+        <div class="col-sm-6">
+            <a class="btn btn-success d-block" asp-action="Create" asp-controller="Libros">Agregar nuevo libro</a>
+        </div>
+    </div>
+
+    <div class="row">
+        @if (Model != null && Model.Count() > 0)
+        {
+            <table class="table">
+          <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(m=>m.Id)</th>
+                <th>@Html.DisplayNameFor(m=>m.Titulo)</th>
+                <th>@Html.DisplayNameFor(m=>m.Descripcion)</th>
+                <th>@Html.DisplayNameFor(m=>m.FechaLanzamiento)</th>
+                <th>@Html.DisplayNameFor(m=>m.Autor)</th>
+                <th>@Html.DisplayNameFor(m=>m.Precio)</th>
+                <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Titulo</td>
+                    <td>@item.Descripcion</td>
+                    <td>@item.FechaLanzamiento</td>
+                    <td>@item.Autor</td>
+                    <td>@item.Precio</td>
+                    <td>
+                        <a asp-action="Edit" asp-controller="Libros" asp-route-id="@item.Id" class="btn btn-primary btn-warning">Editar</a>
+                        <a asp-action="Delete" asp-controller="Libros" asp-route-id="@item.Id" class="btn btn-primary btn-danger">Eliminar</a>
+                    </td>
+                </tr>
+            }
+          </tbody>
+        </table>
+        }
+        else
+        {
+            <p>No existen registros.</p>
+        }
+    </div>
+
+</div>
+
