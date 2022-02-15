@@ -21,3 +21,5 @@ CREATE TABLE dbo.LIBRO
 	CONSTRAINT PK_LIBRO PRIMARY KEY(Id),
 );
 GO
+INSERT INTO LIBRO VALUES('Libro 1', 'Descripcion 1', '2022-01-01', 'Autor 1', 12);
+INSERT INTO LIBRO VALUES('Libro 2', 'Descripcion 2', '2022-02-03', 'Autor 2', 34);

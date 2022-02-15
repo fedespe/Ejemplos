@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8a4606f2-4c55-4a6e-810e-357ebaed09b7": {
+      "ProjectGuid": "8a4606f2-4c55-4a6e-810e-357ebaed09b7",
+      "DisplayName": "ET",
+      "ColorIndex": 0
+    },
+    "f1ca73ce-4b26-4bc8-9307-39b8406c0b72": {
+      "ProjectGuid": "f1ca73ce-4b26-4bc8-9307-39b8406c0b72",
+      "DisplayName": "BL",
+      "ColorIndex": 1
+    },
+    "09a5b0d2-b4b5-4b07-86cb-fa687065ad51": {
+      "ProjectGuid": "09a5b0d2-b4b5-4b07-86cb-fa687065ad51",
+      "DisplayName": "DAL",
+      "ColorIndex": 2
+    },
+    "da9c8237-4c34-4891-9f15-1fdcf245145b": {
+      "ProjectGuid": "da9c8237-4c34-4891-9f15-1fdcf245145b",
+      "DisplayName": "LibrosNetCore6",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -18,7 +18,7 @@
             <h3>Lista de Libros</h3>
         </div>
         <div class="col-sm-6">
-            <a class="btn btn-success d-block" asp-action="Create" asp-controller="Libros">Agregar nuevo libro</a>
+            <a class="btn btn-success d-block" asp-action="Create" asp-controller="Libro">Agregar nuevo libro</a>
         </div>
     </div>
 
@@ -48,8 +48,8 @@
                     <td>@item.Autor</td>
                     <td>@item.Precio</td>
                     <td>
-                        <a asp-action="Edit" asp-controller="Libros" asp-route-id="@item.Id" class="btn btn-primary btn-warning">Editar</a>
-                        <a asp-action="Delete" asp-controller="Libros" asp-route-id="@item.Id" class="btn btn-primary btn-danger">Eliminar</a>
+                        <a asp-action="Edit" asp-controller="Libro" asp-route-id="@item.Id" class="btn btn-primary btn-warning">Editar</a>
+                        <a asp-action="Delete" asp-controller="Libro" asp-route-id="@item.Id" class="btn btn-primary btn-danger">Eliminar</a>
                     </td>
                 </tr>
             }

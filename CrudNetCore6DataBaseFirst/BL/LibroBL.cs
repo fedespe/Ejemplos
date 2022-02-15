@@ -23,16 +23,20 @@ namespace BL
         }
         public void deleteLibro(int id)
         {
-            Libro l = LibroDAL.findById(id);
+            Libro l = libroDAL.findById(id);
             if (l == null)
             {
                 throw new ProyectoException("Error: No se encontro ningun libro con ese id.");
             }
-            libroDAL.deleteLibro(l);
+            libroDAL.deleteLibro(id);
         }
         public List<Libro> FindAllLibros()
         {
             return libroDAL.FindAllLibros();
+        }
+        public Libro FindById(int id)
+        {
+            return libroDAL.findById(id);
         }
         private void validarLibro(Libro l)
         {
