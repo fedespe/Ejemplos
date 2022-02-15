@@ -1,0 +1,12 @@
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\ET\bin\Debug\net6.0\ET.deps.json
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\ET\bin\Debug\net6.0\ET.dll
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\ET\bin\Debug\net6.0\ref\ET.dll
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\ET\bin\Debug\net6.0\ET.pdb
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\ET\obj\Debug\net6.0\ET.csproj.AssemblyReference.cache
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\ET\obj\Debug\net6.0\ET.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\ET\obj\Debug\net6.0\ET.AssemblyInfoInputs.cache
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\ET\obj\Debug\net6.0\ET.AssemblyInfo.cs
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\ET\obj\Debug\net6.0\ET.csproj.CoreCompileInputs.cache
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\ET\obj\Debug\net6.0\ET.dll
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\ET\obj\Debug\net6.0\ref\ET.dll
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\ET\obj\Debug\net6.0\ET.pdb

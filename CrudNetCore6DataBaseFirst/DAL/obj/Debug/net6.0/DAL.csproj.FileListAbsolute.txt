@@ -1,0 +1,15 @@
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\bin\Debug\net6.0\DAL.deps.json
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\bin\Debug\net6.0\DAL.dll
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\bin\Debug\net6.0\ref\DAL.dll
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\bin\Debug\net6.0\DAL.pdb
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\bin\Debug\net6.0\ET.dll
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\bin\Debug\net6.0\ET.pdb
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\obj\Debug\net6.0\DAL.dll
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\obj\Debug\net6.0\ref\DAL.dll
+E:\Documentos Programacion\GIT\Ejerciocios\Ejemplos\CrudNetCore6DataBaseFirst\DAL\obj\Debug\net6.0\DAL.pdb
