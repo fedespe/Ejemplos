@@ -81,5 +81,20 @@ namespace LibrosWebAPI.Controllers
             }
             return retorno;
         }
+        [HttpDelete, Route("borrarLibro/{id}")]
+        public Retorno DeleteLibro(int id)
+        {
+            try
+            {
+                libroBL.deleteLibro(id);
+                retorno.Codigo = 200;
+            }
+            catch (ProyectoException ex)
+            {
+                retorno.Codigo = 1;
+                retorno.Mensaje = ex.Message;
+            }
+            return retorno;
+        }
     }
 }
