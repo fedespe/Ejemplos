@@ -20,7 +20,12 @@
       "ProjectGuid": "da9c8237-4c34-4891-9f15-1fdcf245145b",
       "DisplayName": "LibrosNetCore6",
       "ColorIndex": 3
+    },
+    "6124fd92-01a4-4cf5-ad6d-0fb821d99b26": {
+      "ProjectGuid": "6124fd92-01a4-4cf5-ad6d-0fb821d99b26",
+      "DisplayName": "LibrosWebAPI",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
