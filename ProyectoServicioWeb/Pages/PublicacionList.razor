@@ -1,0 +1,40 @@
+﻿@page "/"
+@using Models
+@using Services
+@inject IPruebaService pruebaService
+
+<h3>Lista de publicidades</h3>
+@if (publicaciones == null || publicaciones.Count()==0)
+{
+    <p><em>loding...</em></p>
+}
+else
+{
+    <table>
+    @foreach(Models.Publicacion p in publicaciones)
+    {
+        <tr>
+            <td>@p.id</td>
+            <td>@p.userId</td>
+            <td>@p.title</td>
+            <td>@p.body</td>
+        </tr>
+    }
+</table>
+}
+
+
+
+@code {
+
+    //INFORMACION DE: The Coder Cave esp
+    //Consume la API del Telescopio Hubble con Blazor Webassembly - Fetch API en C#, Blazor y .NET Core
+    //"https://www.youtube.com/watch?v=vJqEc1Ct7CE"
+
+    public IEnumerable<Models.Publicacion> publicaciones = new List<Models.Publicacion>();
+    protected override async Task OnInitializedAsync()
+    {
+        //Utilizo los metodos creados en la interfaz para consultar la api
+        publicaciones = await pruebaService.GetAll();
+    }
+}
